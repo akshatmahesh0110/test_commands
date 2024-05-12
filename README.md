@@ -1,3 +1,5 @@
+gcloud compute start-iap-tunnel mgmt-pe-bld-01-cin-euwe1b-openvpn-iap 1194 --local-host-port=localhost:1194 --zone=europe-west1-b --project mgmt-vpn-bld-1733
+
 # test_commands
 
 helm template .\helm-charts\esh-rbac -f helm-overrides\esh-rbac-bld-01-config.yaml
